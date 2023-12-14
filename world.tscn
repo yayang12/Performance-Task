@@ -9,3 +9,5 @@
 position = Vector2(262, 218)
 
 [node name="Player" parent="." instance=ExtResource("2_hwgsw")]
+
+[connection signal="body_entered" from="Player" to="Player" method="_on_body_entered"]
